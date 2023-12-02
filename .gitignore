@@ -1,0 +1,9 @@
+venv
+.venv
+.vscode/c_cpp_properties.json
+build
+idf_components
+idedata
+sdkconfig.old
+secrets.h
+secrets.yaml
