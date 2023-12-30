@@ -1,6 +1,6 @@
-## common variables
-# substitutions:
-#   foo: bar
+##########################################
+### ESPHome configuration: BLE gateway ###
+##########################################
 
 esphome:
   name: radio-gateway
