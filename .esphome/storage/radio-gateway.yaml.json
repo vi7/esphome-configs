@@ -7,7 +7,7 @@
   "src_version": 1,
   "address": "192.168.1.33",
   "web_port": null,
-  "esp_platform": "ESP32C3",
+  "esp_platform": "ESP32",
   "build_path": ".esphome/build/radio-gateway",
   "firmware_bin_path": ".esphome/build/radio-gateway/.pioenvs/radio-gateway/firmware.bin",
   "loaded_integrations": [

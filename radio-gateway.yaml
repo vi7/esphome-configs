@@ -9,15 +9,7 @@ esphome:
   #   board_build.flash_mode: dio
 
 esp32:
-  # TODO: migrate to vanilla ESP32
-  board: lolin_c3_mini
-  variant: esp32c3
-  framework:
-    type: arduino
-    # version: "5.1.2"
-    # # Custom sdkconfig options
-    # sdkconfig_options:
-    #   CONFIG_ESPTOOLPY_OCT_FLASH: y
+  board: lolin_d32
 
 # Enable logging
 logger:
@@ -41,8 +33,6 @@ wifi:
     dns1: 192.168.1.1
     dns2: 192.168.1.4
   domain: .home
-  # output_power: 8.5
-  # fast_connect: true
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
